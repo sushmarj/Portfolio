@@ -309,11 +309,18 @@ nav {
   align-items: center;
   min-height: 80vh;
 }
+.center {
+  margin: auto;
+  width: 70%;
+  border: 2px solid #aeafad;
+  padding: 10px;
+  box-shadow: 0 20px 50px rgba(0,255,255,0,15);
+}
 .about-img img{
   height:12rem ;
   width: auto;
   border-radius: 50%;
-  margin: 2rem;
+  margin: 0rem;
   box-shadow: 0 20px 30px rgba(0,255,255,0,15);
 }
 .about-text-box{
@@ -324,6 +331,7 @@ nav {
 .about-text-box h2{
   font-size:4rem;
   margin-bottom: 20px;
+  margin-left: 10px ;
 }
 .about-text-box p{
   
@@ -331,6 +339,7 @@ nav {
   font-size: 1.4rem;
   padding: 0;
   margin-bottom: 1.4rem;
+  margin-left: 10px ;
 }
  .hr{
   margin:4rem 0;
@@ -397,16 +406,7 @@ margin: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size:1.4rem;
  }
- .project-img img{
-  height:20rem ;
-  position: relative;
-  left : 70px;
-  width: 80%;
-  height: 40%;
-  /* border-radius: 50%; */
-  margin: 2rem;
-  box-shadow: 0 20px 50px rgba(0,255,255,0,15);
-}
+ 
 .profile-page{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
