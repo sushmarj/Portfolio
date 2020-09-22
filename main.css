@@ -321,6 +321,7 @@ nav {
   width: auto;
   border-radius: 50%;
   margin: 0rem;
+  
   box-shadow: 0 20px 30px rgba(0,255,255,0,15);
 }
 .about-text-box{
@@ -374,7 +375,8 @@ margin: auto;
 .service-tiers{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap:2rem
+  gap:2rem;
+  row-gap: 4rem;
 
 }
 
