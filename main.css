@@ -30,8 +30,8 @@ ul {
 
 p {
   font-size: 1.4rem;
+  text-align : justify;
 }
-
 img {
   width: 100%;
   max-width: 100%;
