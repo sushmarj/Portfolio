@@ -328,6 +328,7 @@ nav {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+  margin-left: 3%;
 }
 .about-text-box h2{
   font-size:4rem;
